@@ -14,7 +14,7 @@ body:
     id: proposal
     attributes:
       label: The proposal
-      description: How you think it should work. A short code example helps. ohne has no runtime dependencies and no build step, so a feature that needs either will not fit.
+      description: How you think it should work. A short code example helps. No package has a build step, and `ohnejs` has no runtime dependencies. A feature that needs either will not fit.
     validations:
       required: true
   - type: checkboxes
