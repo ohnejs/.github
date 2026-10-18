@@ -1,0 +1,20 @@
+[
+  { "name": "pending triage", "color": "e99695", "description": "Not looked at yet" },
+  {
+    "name": "needs reproduction",
+    "color": "fbca04",
+    "description": "Waiting for a minimal reproduction"
+  },
+  { "name": "needs info", "color": "d4c5f9", "description": "Waiting for an answer" },
+  { "name": "documentation", "color": "0075ca", "description": "Docs only" },
+  { "name": "breaking change", "color": "b60205", "description": "Changes public behaviour" },
+  { "name": "good first issue", "color": "7057ff", "description": "A good place to start" },
+  { "name": "help wanted", "color": "008672", "description": "A pull request is welcome" },
+  {
+    "name": "upstream",
+    "color": "c5def5",
+    "description": "Caused by Node, a browser or another project"
+  },
+  { "name": "duplicate", "color": "cfd3d7", "description": "Already reported" },
+  { "name": "wontfix", "color": "ffffff", "description": "Will not be worked on" }
+]

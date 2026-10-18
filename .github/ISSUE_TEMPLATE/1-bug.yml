@@ -1,0 +1,42 @@
+name: Bug report
+description: Something does not work as documented
+type: Bug
+labels: [pending triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. A small reproduction is what lets us fix it quickly.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: A link to a minimal repository that shows the problem, or the exact steps when a link is more than the bug needs. `npm create ohne` scaffolds a clean project to start from.
+      placeholder: https://github.com/you/ohne-repro
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions
+      description: Your Node version, and the versions of `ohnejs` and every `@ohnejs/*` package you use.
+      placeholder: |
+        node 26.0.0
+        ohnejs 1.0.0
+        @ohnejs/cms 1.0.0
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste the text, not a screenshot.
+      render: shell

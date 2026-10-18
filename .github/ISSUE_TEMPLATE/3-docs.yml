@@ -1,0 +1,20 @@
+name: Documentation
+description: Something in the docs is wrong, missing or unclear
+type: Task
+labels: [documentation, pending triage]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The URL of the page, or the file under `docs/`.
+      placeholder: https://ohne.dev/docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change
+      description: What is wrong or missing, and what you expected to read. A question the docs did not answer belongs here too.
+    validations:
+      required: true

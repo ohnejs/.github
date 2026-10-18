@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://ohne.dev
+    about: The guides for every package. Start here for a "how do I" question; if the docs do not answer it, open a Documentation issue.
+  - name: Security report
+    url: https://github.com/ohnejs/.github/security/policy
+    about: How to report a vulnerability privately. Never in a public issue.

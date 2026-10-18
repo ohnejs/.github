@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest something ohne should do
+type: Feature
+labels: [pending triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do, and what stands in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: The proposal
+      description: How you think it should work. A short code example helps. ohne has no runtime dependencies and no build step, so a feature that needs either will not fit.
+    validations:
+      required: true
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Contributing
+      options:
+        - label: I would like to implement this myself
